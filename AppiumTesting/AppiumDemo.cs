@@ -55,6 +55,7 @@ namespace AppiumTesting
             saveElement.Click();
             AndroidElement deleteElement = driver.FindElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.view.ViewGroup[2]/android.widget.Button");
             deleteElement.Click();
+            driver.Quit();
         }
         
     
