@@ -42,7 +42,6 @@ namespace AppiumTesting
             cap.SetCapability("platformVersion", "8.1");
             cap.SetCapability("noReset", "True");
             cap.SetCapability("adbExecTimeout", "1000000");
-            //cap.SetCapability("automationName", "UiAutomator2");
             cap.SetCapability("app", "C:/Users/symayers/source/repos/Notes/Notes/Notes.Android/bin/Debug/com.companyname.Notes.apk");
             driver = new AndroidDriver<AndroidElement>(new Uri("http://127.0.0.1:4723/wd/hub"), cap);
             AndroidElement editElement = driver.FindElementByClassName("android.widget.EditText");
