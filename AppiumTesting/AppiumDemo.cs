@@ -42,7 +42,7 @@ namespace AppiumTesting
             DesiredCapabilities cap = new DesiredCapabilities();
             cap.SetCapability("platformName", "Android");
             cap.SetCapability("deviceName", "pixel");
-            cap.SetCapability("platformVersion", "8.1");
+            cap.SetCapability("platformVersion", "8.0");
             // cap.SetCapability("udid", "358240051111110");
             cap.SetCapability("noReset", "True");
             cap.SetCapability("adbExecTimeout", "100000");
